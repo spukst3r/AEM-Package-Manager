@@ -22,6 +22,8 @@ Download the script, make it executable and put it into the path on your compute
 
  * list            - lists all available packages
  * install         - installs a package
+ * uninstall       - uninstalls a package
+ * delete          - deletes a package
  * upload          - uploads a package
  * upload-install  - uploads and installs a package
  * build           - builds a package
@@ -35,5 +37,5 @@ Download the script, make it executable and put it into the path on your compute
  * -o  | --out      - The path to download the package
  * -g  | --group    - Filter the package list by group
  * -n  | --name     - Filter the package list by name
- * -pk | --package  - Sets the package to install or upload
+ * -pk | --package  - Sets the package to install/uninstall, delete or upload
  * -h  | --help     - Displays this message
